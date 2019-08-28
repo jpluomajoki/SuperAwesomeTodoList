@@ -1,0 +1,11 @@
+ - Try to do this in TTD
+ - Add a TodoItem
+   - Explanation
+   - Priority
+   - Deadline
+   - IsCompleted
+ - Add the List for TodoItems. Initially stored in app memory
+ - Methods for adding, editing, deleting and marking as done/undone.
+ - Store in MariaDB
+   - Preferably dockerized
+   - Can I test this with dockerized test-db?

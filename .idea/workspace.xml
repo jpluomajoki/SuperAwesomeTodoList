@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30fdf1d7-3c61-48a2-8a4f-3017f2e52d75" name="Default Changelist" comment="" />
+    <list default="true" id="30fdf1d7-3c61-48a2-8a4f-3017f2e52d75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoListForTodoList" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/TodoItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jpluomajoki/SuperAwesomeTodoList/TodoItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SuperAwesomeTodoList" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -16,6 +35,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1Q3UumfEsuSg2JrVq7q4iFQpxvH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -28,6 +51,29 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="TodoItemTest.createTodoItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SuperAwesomeTodoList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jpluomajoki.SuperAwesomeTodoList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jpluomajoki.SuperAwesomeTodoList" />
+      <option name="MAIN_CLASS_NAME" value="com.jpluomajoki.SuperAwesomeTodoList.TodoItemTest" />
+      <option name="METHOD_NAME" value="createTodoItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TodoItemTest.createTodoItem" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="30fdf1d7-3c61-48a2-8a4f-3017f2e52d75" name="Default Changelist" comment="" />
@@ -37,5 +83,16 @@
       <updated>1566998998534</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
