@@ -2,8 +2,9 @@ package com.jpluomajoki.SuperAwesomeTodoList;
 
 import org.junit.Test;
 
+import java.time.LocalDateTime;
+import java.time.Month;
 import java.util.Calendar;
-import java.util.Date;
 
 import static org.junit.Assert.*;
 
@@ -11,7 +12,7 @@ public class TodoItemTest {
 
     private final String EXPLANATION = "Test explanation";
     private final int PRIORITY = 1;
-    private final Date DEADLINE = new Date(1970, Calendar.JANUARY, 0, 12, 0);
+    private final LocalDateTime DEADLINE = LocalDateTime.of(1970, Month.JANUARY, 1, 12, 0);
     private final boolean ISCOMPLETED = false;
 
     /**

@@ -1,6 +1,7 @@
 package com.jpluomajoki.SuperAwesomeTodoList;
 
-import java.util.Date;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 /*
  - Add a TodoItem
@@ -12,15 +13,19 @@ import java.util.Date;
 public class TodoItem {
     private String explanation;
     private int priority;
-    private Date deadline;
+    private LocalDateTime deadline;
     private boolean completed;
 
-    public TodoItem(String explanation, int priority, Date deadline, boolean completed) {
+    public TodoItem(String explanation, int priority, LocalDateTime deadline, boolean completed) {
         this.explanation = explanation;
         this.priority = priority;
         this.deadline = deadline;
         this.completed = completed;
     }
+
+    /**
+     * Getters & Setters down here
+     */
 
     public String getExplanation() {
         return explanation;
@@ -38,11 +43,11 @@ public class TodoItem {
         this.priority = priority;
     }
 
-    public Date getDeadline() {
+    public LocalDateTime getDeadline() {
         return deadline;
     }
 
-    public void setDeadline(Date deadline) {
+    public void setDeadline(LocalDateTime deadline) {
         this.deadline = deadline;
     }
 

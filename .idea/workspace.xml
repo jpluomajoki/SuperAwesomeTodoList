@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30fdf1d7-3c61-48a2-8a4f-3017f2e52d75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoListForTodoList" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/TodoItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jpluomajoki/SuperAwesomeTodoList/TodoItemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/TodoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/TodoItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jpluomajoki/SuperAwesomeTodoList/TodoItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jpluomajoki/SuperAwesomeTodoList/TodoItemTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
