@@ -4,7 +4,6 @@ import org.junit.Test;
 
 import java.time.LocalDateTime;
 import java.time.Month;
-import java.util.Calendar;
 
 import static org.junit.Assert.*;
 
@@ -22,6 +21,16 @@ public class TodoItemTest {
     @Test
     public void createTodoItem() {
         TodoItem todoItem = new TodoItem(EXPLANATION, PRIORITY, DEADLINE, ISCOMPLETED);
+
+        assertEquals(todoItem.getExplanation(), EXPLANATION);
+        assertEquals(todoItem.getPriority(), PRIORITY);
+        assertEquals(todoItem.getDeadline(), DEADLINE);
+        assertEquals(todoItem.isCompleted(), ISCOMPLETED);
+    }
+
+    @Test
+    public void testCreateTodoItemWithDefaultCompleted() {
+        TodoItem todoItem = new TodoItem(EXPLANATION, PRIORITY, DEADLINE);
 
         assertEquals(todoItem.getExplanation(), EXPLANATION);
         assertEquals(todoItem.getPriority(), PRIORITY);
