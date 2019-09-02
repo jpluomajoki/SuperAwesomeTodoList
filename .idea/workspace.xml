@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30fdf1d7-3c61-48a2-8a4f-3017f2e52d75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/TodoList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jpluomajoki/SuperAwesomeTodoList/TodoListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/DbOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jpluomajoki/SuperAwesomeTodoList/DbOperationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/TodoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/TodoItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jpluomajoki/SuperAwesomeTodoList/TodoItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jpluomajoki/SuperAwesomeTodoList/TodoItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoListForTodoList" beforeDir="false" afterPath="$PROJECT_DIR$/TodoListForTodoList" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/DbConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/DbConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jpluomajoki/SuperAwesomeTodoList/DbConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jpluomajoki/SuperAwesomeTodoList/DbConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jpluomajoki/SuperAwesomeTodoList/TodoListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jpluomajoki/SuperAwesomeTodoList/TodoListTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +65,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TodoListTest.createTodoList">
+  <component name="RunManager" selected="JUnit.DbConnectionTest.testCreateConnectionUrl">
+    <configuration name="DbConnectionTest.testCreateConnectionUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SuperAwesomeTodoList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jpluomajoki.SuperAwesomeTodoList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jpluomajoki.SuperAwesomeTodoList" />
+      <option name="MAIN_CLASS_NAME" value="com.jpluomajoki.SuperAwesomeTodoList.DbConnectionTest" />
+      <option name="METHOD_NAME" value="testCreateConnectionUrl" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TodoItemTest.createTodoItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SuperAwesomeTodoList" />
       <extension name="coverage">
@@ -104,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DbConnectionTest.testCreateConnectionUrl" />
         <item itemvalue="JUnit.TodoListTest.createTodoList" />
         <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="JUnit.TodoItemTest.createTodoItem" />
@@ -125,21 +145,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/TodoList.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

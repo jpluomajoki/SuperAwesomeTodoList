@@ -9,3 +9,21 @@
  - Store in MariaDB
    - Preferably dockerized
    - Can I test this with dockerized test-db?
+     - No, I should mock the db
+
+DB:
+ - Keep it simple for now, no user id's or anything
+ |                            TodoItems                           |
+ | id | explanation | priority | deadline | isCompleted | deleted |
+ | ?? |    String   |  tinyint |   Date   |   boolean   |   date  |
+
+ - Add item
+   - INSERT INTO TodoItems (explanation, priority, deadline, isCompleted) VALUES ($1, $2, $3, $4)
+ - Edit item (by id!)
+   - UPDATE TodoItems SET explanation = '$1', priority = '$2', deadline = '$3', isCompleted = '$4' WHERE id = $id
+ - remove item, set date to deleted and then remove when some time has passed, on week maybe?
+   - UPDATE TodoItems SET deleted = true WHERE id = $id
+ - toggle completed status
+   - UPDATE TodoItems SET isCompleted = !isCompleted
+ - And finally, simple query.
+   - Select explanation, priority, deadline, isCompleted from TodoItems WHERE NOT deleted;
