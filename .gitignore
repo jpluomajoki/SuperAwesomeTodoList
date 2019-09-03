@@ -3,6 +3,7 @@
 *.iml
 *.iws
 
+secret/
 target/
 pom.xml.tag
 pom.xml.releaseBackup
