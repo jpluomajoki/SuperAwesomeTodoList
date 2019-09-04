@@ -27,7 +27,9 @@ public class TodoList {
      * Get all the todoItems for a given date
      */
     public TodoList get(LocalDate deadlineDate) {
-         return new TodoList(this.todoItems.stream().filter(todoItem -> deadlineDate.equals(todoItem.getDeadline().toLocalDate())).collect(Collectors.toList()));
+        return new TodoList(this.todoItems.stream().filter(
+                todoItem -> deadlineDate.equals(todoItem.getDeadline().toLocalDate())
+        ).collect(Collectors.toList()));
     }
 
     /**
@@ -39,7 +41,7 @@ public class TodoList {
             return true;
         }
 
-        if (other == null ||  getClass() != other.getClass()) {
+        if (other == null || getClass() != other.getClass()) {
             return false;
         }
 

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30fdf1d7-3c61-48a2-8a4f-3017f2e52d75" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/DbConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/DbConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/DbOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/DbOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jpluomajoki/SuperAwesomeTodoList/DbConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jpluomajoki/SuperAwesomeTodoList/DbConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/TodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/TodoList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/jpluomajoki/SuperAwesomeTodoList/DbOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jpluomajoki/SuperAwesomeTodoList/DbOperationsTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.DbOperationsTest.testGetAllTodoItems">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jpluomajoki.SuperAwesomeTodoList.App" />
       <module name="SuperAwesomeTodoList" />
@@ -110,6 +107,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DbOperationsTest.testGetAllTodoItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SuperAwesomeTodoList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jpluomajoki.SuperAwesomeTodoList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jpluomajoki.SuperAwesomeTodoList" />
+      <option name="MAIN_CLASS_NAME" value="com.jpluomajoki.SuperAwesomeTodoList.DbOperationsTest" />
+      <option name="METHOD_NAME" value="testGetAllTodoItems" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TodoListTest.createTodoList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SuperAwesomeTodoList" />
       <extension name="coverage">
@@ -126,20 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scratch" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DbOperationsTest.testGetAllTodoItems" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.DbConnectionTest.testCreateConnectionUrl" />
         <item itemvalue="JUnit.DbOperationsTest.testAddListItem" />
         <item itemvalue="JUnit.TodoListTest.createTodoList" />
-        <item itemvalue="Java Scratch.Scratch" />
       </list>
     </recent_temporary>
   </component>
@@ -165,5 +171,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/DbOperations.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
