@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30fdf1d7-3c61-48a2-8a4f-3017f2e52d75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/Routes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/DbOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/DbOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/TodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/TodoList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jpluomajoki/SuperAwesomeTodoList/DbOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jpluomajoki/SuperAwesomeTodoList/DbOperationsTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +28,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/share/maven" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -40,6 +46,10 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -171,16 +181,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jpluomajoki/SuperAwesomeTodoList/DbOperations.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

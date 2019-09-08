@@ -29,4 +29,26 @@ public class DbOperations {
 
         return new TodoList();
     }
+
+    public static void updateItem(Connection connection, int index, TodoItem newItem) throws SQLException {
+        String query = "UPDATE TodoItems SET explanation = ?, priority = ?, deadline = ?, isCompleted = ? WHERE id = ?";
+        PreparedStatement pstmt = connection.prepareStatement(query);
+
+        pstmt.setString(1, newItem.getExplanation());
+        pstmt.setInt(2, newItem.getPriority());
+        pstmt.setTimestamp(3, Timestamp.valueOf(newItem.getDeadline()));
+        pstmt.setBoolean(4, newItem.isCompleted());
+        pstmt.setInt(5, index);
+
+        pstmt.executeUpdate();
+    }
+
+    public static void deleteItem(Connection connection, int index) throws SQLException {
+        String query = "UPDATE TodoItems SET deleted = true WHERE id = ?";
+        PreparedStatement pstmt = connection.prepareStatement(query);
+
+        pstmt.setInt(1, index);
+
+        pstmt.executeUpdate();
+    }
 }
